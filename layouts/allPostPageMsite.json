@@ -1,0 +1,63 @@
+{
+  "constantStyle" : {
+    "sideMargin" : 0,
+    "sidebarWidth" : 0,
+    "middleMargin" : 0
+  },
+  "device" : "mobile",
+  "componentLayoutList" : [
+    {
+      "componentType": "row",
+      "cellId": "r1",
+      "pid": 0,
+      "widgetType" : "TITLE",
+      "innerDataLayout": {
+        "title" : "df-fs40-cfdg2-fw600-pb10"
+      },
+      "ls": "p20,20,10",
+      "mockResponse": {
+        "title": "All Posts"
+      }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r2",
+      "pid": 0,
+      "widgetType" : "ALL_POST",
+      "viewType" : "BLOCK",
+      "ls": "p0,20,8",
+      "innerDataLayout": {
+        "title" : "fs18-cfdg2-mb5-fwb",
+        "subtitle" : "fs14-cfg-mb5",
+        "date" : "fs12-cfdg2-mb5",
+        "category" : "fs12-cfdg2-mb5-fwb",
+        "innerText" : "fs12-cfdg2-mb5-fwb",
+        "innerWidget" : "df"
+      }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r3",
+      "pid": 0,
+      "widgetType" : "RECOMMENDED_POST",
+      "ls": "p10,20,5,20",
+      "innerDataLayout": {
+        "recommendedPostsTitle" : "fs20-cfg-fwb",
+        "recommendedPostTitle" : "fs18-cfg-fwb",
+        "recommendedPostSubtitle" : "fs14-cfg-mb5",
+        "recommendedPostDate" : "fs10-cflg"
+      }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r4",
+      "pid": "0",
+      "widgetType" : "NEWS_LETTER",
+      "ls": "wdih-m10,20,10,20",
+      "innerDataLayout": {
+        "title": "df-fs30-cftw-fw600-tac-p10,10,0-lh40",
+        "subTitle": "df-fs26-cfw-fw200-tac-p0,10-lh26"
+      }
+    }
+  ]
+}

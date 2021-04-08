@@ -1,0 +1,46 @@
+{
+  "constantStyle" : {
+    "sideMargin" : 80,
+    "sidebarWidth" : 300,
+    "middleMargin" : 20
+  },
+  "device" : "mobile",
+  "componentLayoutList":
+  [
+  {
+    "componentType": "row",
+    "cellId": "r1",
+    "pid": "0",
+    "widgetType" : "TITLE",
+    "innerDataLayout": {
+      "title" : "df-fs40-cfdg2-fw600-pb10"
+    },
+    "ls": "p20,20,10",
+    "mockResponse": {
+      "title": "My Posts"
+    }
+  },
+  {
+    "componentType": "row",
+    "cellId": "r2",
+    "pid": "0",
+    "widgetType" : "FILTER_SEARCH_BOX",
+    "ls": "p10,20,5"
+  },
+  {
+    "componentType": "row",
+    "cellId": "r3",
+    "pid": "0",
+    "widgetType" : "VIEW_ALL_POST",
+    "ls": "p0,20",
+    "viewType" : "BLOCK",
+    "innerDataLayout": {
+      "title" : "fs18-cfdg2-fwb-cp",
+      "subTitle" : "fs14-cfdg2-mb5",
+      "date" : "fs10-cfdg2",
+      "status" : "fs8-cfw-bcr-p3,10-br2-ml14",
+      "userDetails" : "fs10-cfw-bcfb-p2,10-br2-ml14"
+    }
+  }
+]
+}

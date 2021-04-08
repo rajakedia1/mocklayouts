@@ -1,0 +1,96 @@
+{
+  "constantStyle" : {
+    "sideMargin" : 80,
+    "sidebarWidth" : 300,
+    "middleMargin" : 20
+  },
+  "device" : "desktop",
+  "componentLayoutList" : [
+    {
+      "componentType": "row",
+      "cellId": "r1",
+      "pid": "0",
+      "widgetType" : "EMPTY",
+      "ls": "df-m0,{sideMargin},0,{sideMargin}-pt30"
+    },
+    {
+      "componentType": "column",
+      "cellId": "c1",
+      "pid": "r1",
+      "widgetType" : "EMPTY",
+      "ls": "fx1-mr{middleMargin}"
+    },
+    {
+      "componentType": "row",
+      "cellId": "r2",
+      "pid": "c1",
+      "widgetType" : "TITLE",
+      "innerDataLayout": {
+        "title" : "df-fs40-cfdg2-fw600-pb10"
+      },
+      "ls": "p10,0,5,0",
+      "mockResponse": {
+        "title": "All Posts"
+      }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r3",
+      "pid": "c1",
+      "widgetType" : "ALL_POST",
+      "viewType" : "BLOCK",
+      "innerDataLayout": {
+        "title" : "fs24-cfdg2-mb5-fwb-p10,20,0",
+        "date" : "fs12-cfdg2-mb5-p0,20,0",
+        "category" : "fs18-mb15-fwb-p0,20",
+        "innerText" : "fs12-cfdg2-mb5-fwb-p0,20,10",
+        "innerWidget" : "m10-bcw-el"
+      }
+    },
+    {
+      "componentType": "column",
+      "cellId": "c2",
+      "pid": "r1",
+      "widgetType" : "EMPTY",
+      "ls": "wd{sidebarWidth}"
+    },
+    {
+      "componentType": "row",
+      "cellId": "r5",
+      "pid": "c2",
+      "widgetType" : "RECOMMENDED_POST",
+      "ls" : "p20-mb{middleMargin}-el-bcw",
+      "innerDataLayout": {
+        "recommendedPostsTitle" : "fs32-cfdg2-fw600-mb12",
+        "recommendedPostTitle" : "fs14-cfdg2-fw600-m0,0,5,0",
+        "recommendedPostSubtitle" : "fs14-cfdg2-mb5",
+        "recommendedPostDate" : "fs10-cfdg2"
+      }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r6",
+      "pid": "c2",
+      "widgetType" : "CATEGORY_CARD",
+      "ls" : "p20-mb{middleMargin}-el-bcw",
+      "innerDataLayout": {
+        "footerText" : "fs14-cfdg2-m10,0",
+        "title": "fs26-cfdg2-fw600-mb20",
+        "subTitle": "fs14-cfdg2-fw600-m10,0",
+        "innerWidget": "df-aic-jcsb-cp"
+      }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r7",
+      "pid": "c2",
+      "widgetType" : "NEWS_LETTER",
+      "ls": "wdih-mb{middleMargin}",
+      "innerDataLayout": {
+        "title": "df-fs30-cftw-fw600-p10,10,0-lh40",
+        "subTitle": "df-fs26-cfw-fw200-p0,10-lh26",
+        "sticky": true
+      }
+    }
+  ]
+}

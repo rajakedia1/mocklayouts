@@ -1,0 +1,90 @@
+{
+  "constantStyle" : {
+    "sideMargin" : 60,
+    "sidebarWidth" : 300,
+    "middleMargin" : 10
+  },
+  "device" : "desktop",
+  "componentLayoutList": [
+    {
+      "componentType": "row",
+      "cellId": "r1",
+      "pid": "0",
+      "widgetType" : "EMPTY",
+      "ls" : "df-m0,{sideMargin}-el-bcw-mb{middleMargin}"
+    },
+    {
+      "componentType": "column",
+      "cellId": "c0",
+      "pid": "r1",
+      "widgetType" : "USER_PROFILE",
+      "viewType" : "BANNER",
+      "ls" : "wd100p-m{middleMargin},0",
+      "innerDataLayout": {
+        "footerText" : "df-fs18-lh24-cfmg1-pt5",
+        "title": "df-fs32-cfthh-fw600",
+        "subTitle": "df-fs18-lh24-cfmg1-pt5"
+      }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r2",
+      "pid": "0",
+      "widgetType" : "EMPTY",
+      "ls" : "df-m0,{sideMargin}"
+    },
+    {
+      "componentType": "column",
+      "cellId": "c1",
+      "pid": "r2",
+      "widgetType" : "EMPTY",
+      "ls": "fx1-mr{middleMargin}-el-bcw-p20"
+    },
+    {
+      "componentType": "row",
+      "cellId": "r3",
+      "pid": "c1",
+      "widgetType" : "AUTHOR_POST_LIST",
+      "viewType" : "BLOCK",
+      "ls": "p10,0,5,0",
+      "innerDataLayout": {
+        "recommendedPostTitle" : "fs22-cfdg2-fwb-cp-df-mb5",
+        "recommendedPostSubtitle" : "fs16-cfdg2-mb5-lh22",
+        "recommendedPostDate" : "fs12-cfdg2",
+        "title" : "fs36-fwb-cfdg2-tac"
+      }
+    },
+    {
+      "componentType": "column",
+      "cellId": "c2",
+      "pid": "r2",
+      "widgetType" : "EMPTY",
+      "ls": "wd{sidebarWidth}"
+    },
+    {
+      "componentType": "row",
+      "cellId": "r6",
+      "pid": "c2",
+      "widgetType" : "RECOMMENDED_POST",
+      "ls" : "p20-mb{middleMargin}-el-bcw",
+      "innerDataLayout": {
+        "recommendedPostsTitle" : "fs32-cfdg2-fw600-mb12",
+        "recommendedPostTitle" : "fs14-cfdg2-fw600-m0,0,5,0",
+        "recommendedPostSubtitle" : "fs14-cfdg2-mb5",
+        "recommendedPostDate" : "fs10-cfdg2"
+      }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r7",
+      "pid": "c2",
+      "widgetType" : "NEWS_LETTER",
+      "ls": "wdih-mb{middleMargin}",
+      "innerDataLayout": {
+        "title": "df-fs30-cftw-fw600-p10,10,0-lh40",
+        "subTitle": "df-fs26-cfw-fw200-tac-p0,10-lh26",
+        "sticky": true
+      }
+    }
+  ]
+}

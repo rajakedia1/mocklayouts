@@ -1,0 +1,14 @@
+{
+  "componentType": "row",
+  "cellId": "r3",
+  "pid": "c1",
+  "widgetType" : "VIEW_ALL_POST",
+  "ls" : "df-m30,20,0",
+  "innerDataLayout": {
+    "title" : "fs20-cfdg2-fwb-mb6",
+    "subTitle" : "fs14-cfdg2-mb6-lh20",
+    "date" : "fs10-cfdg2",
+    "status" : "fs8-cfw-bcr-p3,10-br2-ml14",
+    "userDetails" : "fs10-cfw-bcfb-p2,10-br2-ml14"
+  }
+}

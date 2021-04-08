@@ -1,0 +1,59 @@
+{
+  "constantStyle" : {
+    "sideMargin" : 80,
+    "sidebarWidth" : 300,
+    "middleMargin" : 20
+  },
+  "device" : "desktop",
+  "componentLayoutList":
+  [
+  {
+    "componentType": "row",
+    "cellId": "r1",
+    "widgetType" : "EMPTY",
+    "pid": "0",
+    "ls" : "df-m0,{sideMargin}"
+  },
+  {
+    "componentType": "column",
+    "cellId": "c1",
+    "pid": "r1",
+    "widgetType" : "EMPTY",
+    "ls": "fx1-el-bcw-p20,40"
+  },
+  {
+    "componentType": "row",
+    "cellId": "r2",
+    "pid": "c1",
+    "widgetType" : "TITLE",
+    "innerDataLayout": {
+      "title" : "df-fs40-cfdg2-fw600-pb10"
+    },
+    "ls": "p10,0,5,0",
+    "mockResponse": {
+      "title": "My Posts"
+    }
+  },
+  {
+    "componentType": "row",
+    "cellId": "r3",
+    "pid": "c1",
+    "widgetType" : "FILTER_SEARCH_BOX",
+    "ls": "p10,0,5,0"
+  },
+  {
+    "componentType": "row",
+    "cellId": "r4",
+    "pid": "c1",
+    "widgetType" : "VIEW_ALL_POST",
+    "viewType" : "BLOCK",
+    "innerDataLayout": {
+      "title" : "fs18-cfdg2-fwb-cp",
+      "subTitle" : "fs14-cfdg2-mb5",
+      "date" : "fs10-cfdg2",
+      "status" : "fs8-cfw-bcr-p3,10-br2-ml14",
+      "userDetails" : "fs10-cfw-bcfb-p2,10-br2-ml14"
+    }
+  }
+]
+}

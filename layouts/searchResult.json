@@ -1,0 +1,32 @@
+{
+  "constantStyle" : {
+    "sideMargin" : 80,
+    "sidebarWidth" : 350,
+    "middleMargin" : 20
+  },
+  "device" : "desktop",
+  "componentLayoutList":
+  [
+    {
+      "componentType": "column",
+      "cellId": "c1",
+      "pid": "r1",
+      "widgetType" : "SEARCH_ROW",
+      "ls": "p10,0,5,0",
+      "innerDataLayout" : {
+        "title" : "fs16-cfdg2-fw600-ml10-p5",
+        "subTitle" : "fs14-cfdg2-ml10-p0,5"
+      }
+    },
+    {
+      "componentType": "column",
+      "cellId": "c1",
+      "pid": "r1",
+      "widgetType" : "SEARCH_INFO",
+      "ls": "p10,0,5,0",
+      "innerDataLayout" : {
+        "title" : "fs12-cfdg2-fw600-fsi"
+      }
+    }
+  ]
+}
