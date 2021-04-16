@@ -39,6 +39,9 @@
       "innerDataLayout": {
         "body" : "df-fs18",
         "footerText" : "fs0.8r-cfmg1-tac-mt6"
+      },
+      "extraparams": {
+        "width": "left"
       }
     },
     {

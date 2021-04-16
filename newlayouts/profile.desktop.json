@@ -1,0 +1,117 @@
+{
+    "constantStyle": {
+        "0-700": {
+            "sideMargin": 80,
+            "sidebarWidth": 300,
+            "middleMargin": 10
+        },
+        "701-1100": {
+            "sideMargin": 130,
+            "sidebarWidth": 300,
+            "middleMargin": 10
+        },
+        "1101-1300": {
+            "sideMargin": 200,
+            "sidebarWidth": 320,
+            "middleMargin": 10
+        },
+        "1301-10000": {
+            "sideMargin": 300,
+            "sidebarWidth": 340,
+            "middleMargin": 10
+        }
+    },
+    "device": "desktop",
+    "componentLayoutList": [
+        {
+            "componentType": "row",
+            "cellId": "r1",
+            "pid": "0",
+            "widgetType": "USER_PROFILE",
+            "viewType": "BANNER",
+            "ls": "p60,{halfSideMargin}-bc#f2f2ff",
+            "innerDataLayout": {
+                "footerText": "df-fs18-lh24-cf#add9ff-pt5",
+                "title": "df-fs38-cfdg2-fw600-mb6",
+                "subTitle": "df-fs18-lh28-cfdg2-pt5"
+            }
+        },
+        {
+            "componentType": "row",
+            "cellId": "r2",
+            "pid": "0",
+            "widgetType": "EMPTY",
+            "ls": "df-m0,{sideMargin}"
+        },
+        {
+            "componentType": "column",
+            "cellId": "r3",
+            "pid": "0",
+            "widgetType": "AUTHOR_POST_LIST",
+            "viewType": "BLOCK",
+            "ls": "p10,{sideMargin},5",
+            "innerDataLayout": {
+                "recommendedPostTitle": "fs26-cfdg2-fwb-cp-df-mb8",
+                "recommendedPostSubtitle": "fs16-cfdg2-mb8-lh22",
+                "recommendedPostDate": "fs12-cfdg2",
+                "title": "fs36-fwb-cfdg2-tac"
+            }
+        },
+        {
+            "componentType": "row",
+            "cellId": "r4",
+            "pid": "0",
+            "widgetType": "TITLE",
+            "ls": "p30,{sideMargin},50",
+            "innerDataLayout": {
+                "title": "fs20-cf#002348-cp"
+            },
+            "mockResponse": {
+                "title": "View all posts from the author →",
+                "url": "/post?author=rajakedia"
+            }
+        },
+
+
+        {
+            "componentType": "row",
+            "cellId": "r6",
+            "pid": "0",
+            "widgetType": "CATEGORY_CARD",
+            "ls": "p50,{sideMargin}-mb60-bc#f2f2ff",
+            "innerDataLayout": {
+                "footerText": "fs14-cfw-m10,0",
+                "title": "fs34-cfdg2-fw600-mb40-tac",
+                "subTitle": "fs14-cfw-fw600-m10,20,10,0",
+                "innerWidget": "df-aic-jcsb-cp-bc#4799f5-p0,20-br20-mr20-mb30"
+            }
+        },
+        {
+            "componentType": "row",
+            "cellId": "r7",
+            "pid": "0",
+            "widgetType": "TITLE",
+            "ls": "p10,0,5,0",
+            "innerDataLayout": {
+                "title": "fs48-cfdg2-fw600-mb20-tac"
+            },
+            "mockResponse": {
+                "title": "Recommended Posts"
+            }
+        },
+        {
+            "componentType": "row",
+            "cellId": "r8",
+            "pid": "0",
+            "widgetType": "ROW_GRID_POST_VIEW",
+            "ls": "m40,{halfSideMargin}",
+            "innerDataLayout": {
+                "title": "fs24-lh32-cfdg2-mb5-fwb-p10,0,0",
+                "date": "fs12-cfdg2-mb5",
+                "category": "fs18-mb15-fwb",
+                "innerText": "fs12-cfdg2-mb5-fwb-p0,0,10",
+                "innerWidget": "m20,10"
+            }
+        }
+    ]
+}

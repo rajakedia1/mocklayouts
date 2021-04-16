@@ -49,6 +49,9 @@
         "title" : "df-fs40-cfdg2-fw600-mb16",
         "layoutData" : "df-fs18-lh1.4e-mt10-cfdg2",
         "innerText" : "fs16-cfdg2-m5,0,10,0-fw600-cp"
+      },
+      "extraparams": {
+        "width": "left"
       }
     },
     {
@@ -62,6 +65,9 @@
         "title" : "df-fs40-cfdg2-fw600-mb16",
         "layoutData" : "df-fs18-lh1.4e-mt10-cfdg2",
         "innerText" : "fs16-cfdg2-m5,0,10,0-fw600-cp"
+      },
+      "extraparams": {
+        "width": "left"
       }
     },
     {
