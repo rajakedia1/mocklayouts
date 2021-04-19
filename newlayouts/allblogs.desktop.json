@@ -75,7 +75,7 @@
                 "date": "fs12-cfdg2-mb5",
                 "category": "fs18-mb15-fwb",
                 "innerText": "fs12-cfdg2-mb5-fwb-p0,0,10",
-                "innerWidget": "m20,10"
+                "innerWidget": "m20,10-mw{contentWidth}p"
             }
         },
         {
