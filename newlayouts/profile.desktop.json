@@ -44,7 +44,7 @@
             "ls": "df-m0,{sideMargin}"
         },
         {
-            "componentType": "column",
+            "componentType": "row",
             "cellId": "r3",
             "pid": "0",
             "widgetType": "AUTHOR_POST_LIST",
