@@ -65,7 +65,6 @@
         "recommendedPostDate": "df-fs14-lh22-pt4-tac-p10,20,0"
       }
     },
-
     {
       "componentType": "row",
       "cellId": "r_b",
@@ -80,8 +79,6 @@
       "widgetType": "EMPTY",
       "ls": "wd100p-ht70-bc#2149a5-pa"
     },
-
-
     {
       "componentType": "row",
       "cellId": "r2",
@@ -90,7 +87,6 @@
       "ls": "df-pt0-m0-mb50",
       "dimension": true
     },
-
     {
       "componentType": "column",
       "cellId": "r2_1",
@@ -114,7 +110,6 @@
         "parent": "r2"
       }
     },
-
     {
       "componentType": "column",
       "cellId": "r2_2",
@@ -158,7 +153,6 @@
       "widgetType": "EMPTY",
       "ls": ""
     },
-    
     {
       "componentType": "row",
       "cellId": "r6",
@@ -192,11 +186,14 @@
       "widgetType": "ROW_GRID_POST_VIEW",
       "ls": "m40,{halfSideMargin}",
       "innerDataLayout": {
-          "title": "fs24-lh32-cfdg2-mb5-fwb-p10,0,0",
-          "date": "fs12-cfdg2-mb5",
-          "category": "fs18-mb15-fwb",
-          "innerText": "fs12-cfdg2-mb5-fwb-p0,0,10",
-          "innerWidget": "m20,10"
+        "title": "fs24-lh32-cfdg2-mb5-fwb-p10,0,0",
+        "date": "fs12-cfdg2-mb5",
+        "category": "fs18-mb15-fwb",
+        "innerText": "fs12-cfdg2-mb5-fwb-p0,0,10",
+        "innerWidget": "m20,10"
+      },
+      "extraparams": {
+        "contentLength": 4
       }
     }
   ]
