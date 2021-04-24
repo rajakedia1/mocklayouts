@@ -53,13 +53,6 @@
         },
         {
             "componentType": "row",
-            "cellId": "r3",
-            "pid": "c1",
-            "widgetType": "FILTER_SEARCH_BOX",
-            "ls": "p10,0,5,0"
-        },
-        {
-            "componentType": "row",
             "cellId": "r4",
             "pid": "c1",
             "widgetType": "VIEW_ALL_POST",
