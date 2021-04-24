@@ -34,10 +34,10 @@
       "componentType": "row",
       "cellId": "c1",
       "pid": "r1",
-      "widgetType": "TITLE",
+      "widgetType": "BREAD_CRUMBS",
       "ls": "p10,0,5,0",
       "innerDataLayout": {
-        "title": "df-fs18-pb16-wd90p"
+        "title": "cfw"
       },
       "mockResponse": {
         "title": "Home » Post"

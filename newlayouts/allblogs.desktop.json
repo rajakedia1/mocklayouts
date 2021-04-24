@@ -42,7 +42,7 @@
             "cellId": "r1",
             "pid": "0",
             "widgetType": "EMPTY",
-            "ls": "df-p30,{sideMargin},0,{sideMargin}-pr"
+            "ls": "df-p30,{sideMargin},0-pr"
         },
         {
             "componentType": "column",

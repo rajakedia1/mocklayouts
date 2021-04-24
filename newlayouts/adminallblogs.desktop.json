@@ -1,0 +1,103 @@
+{
+    "constantStyleMap": {
+        "0-700": {
+            "sideMargin": 80,
+            "sidebarWidth": 300,
+            "middleMargin": 10
+        },
+        "701-1100": {
+            "sideMargin": 80,
+            "sidebarWidth": 300,
+            "middleMargin": 10
+        },
+        "1101-1300": {
+            "sideMargin": 60,
+            "sidebarWidth": 320,
+            "middleMargin": 10
+        },
+        "1301-10000": {
+            "sideMargin": 130,
+            "sidebarWidth": 340,
+            "middleMargin": 10
+        }
+    },
+    "device": "desktop",
+    "componentLayoutList": [
+        {
+            "componentType": "row",
+            "cellId": "r1",
+            "widgetType": "EMPTY",
+            "pid": "0",
+            "ls": "df-p0,{sideMargin}-pr-elt"
+        },
+        {
+            "componentType": "column",
+            "cellId": "c1",
+            "pid": "r1",
+            "widgetType": "EMPTY",
+            "ls": "fx1-p20-mr{middleMargin}-mb50",
+            "dimension": true
+        },
+        {
+            "componentType": "row",
+            "cellId": "r0",
+            "pid": "c1",
+            "widgetType": "TITLE",
+            "ls": "df-p0,0,20",
+            "innerDataLayout": {
+                "title": "df-fs40-cfdg2-fw600-p20,0"
+            },
+            "mockResponse": {
+                "title": "My Posts"
+            }
+        },
+        {
+            "componentType": "row",
+            "cellId": "r3",
+            "pid": "c1",
+            "widgetType": "FILTER_SEARCH_BOX",
+            "ls": "p10,0,5,0"
+        },
+        {
+            "componentType": "row",
+            "cellId": "r4",
+            "pid": "c1",
+            "widgetType": "VIEW_ALL_POST",
+            "viewType": "BLOCK",
+            "innerDataLayout": {
+                "title": "fs22-cfdg2-fwb-cp",
+                "subTitle": "",
+                "date": "fs10-cfdg2",
+                "status": "fs12-cfr-fwb-mr14",
+                "userDetails": "fs12-cffb-ml14-fwb"
+            }
+        },
+        {
+            "componentType": "column",
+            "cellId": "c2",
+            "pid": "r1",
+            "widgetType": "EMPTY",
+            "ls": "wd{sidebarWidth}"
+        },
+        {
+            "componentType": "row",
+            "cellId": "r5",
+            "pid": "c2",
+            "widgetType": "FILTER_SIDE_BOX",
+            "ls": "mt20-mb30-wdih",
+            "innerDataLayout": {
+                "title": "fs26-cfdg2-fw600-mb20",
+                "subTitle": "fs14-cfdg2-fw600-m10,0",
+                "innerWidget": "df-aic-jcsb-cp",
+                "sticky": true
+            },
+            "extraparams": {
+                "stickyindex": 1,
+                "parent": "c1"
+            },
+            "mockResponse": {
+                "title": "Apply Filters"
+            }
+        }
+    ]
+}
