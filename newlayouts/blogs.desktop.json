@@ -28,7 +28,7 @@
       "cellId": "r1",
       "pid": "0",
       "widgetType": "EMPTY",
-      "ls": "df-fdc-bc#2149a5-p60,{sideMargin},30-cfw"
+      "ls": "df-fdc-bcsd-p60,{sideMargin},30-cfw"
     },
     {
       "componentType": "row",
@@ -50,7 +50,7 @@
       "widgetType": "TITLE",
       "ls": "p40,0",
       "innerDataLayout": {
-        "title": "df-fs70-pb16-fwb-lh92"
+        "title": "df-fs70-pb16-fwb-lh92-cfw"
       }
     },
     {
@@ -77,7 +77,7 @@
       "cellId": "r_1",
       "pid": "r_b",
       "widgetType": "EMPTY",
-      "ls": "wd100p-ht70-bc#2149a5-pa"
+      "ls": "wd100p-ht70-bcsd-pa"
     },
     {
       "componentType": "row",

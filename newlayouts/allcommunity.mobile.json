@@ -1,0 +1,71 @@
+{
+    "constantStyleMap": {
+      "0-700": {
+        "sideMargin": 20,
+        "sidebarWidth": 0,
+        "middleMargin": 0
+      }
+    },
+    "device" : "mobile",
+    "componentLayoutList" : [
+      {
+        "componentType": "row",
+        "cellId": "r1",
+        "pid": 0,
+        "widgetType" : "TITLE",
+        "innerDataLayout": {
+          "title" : "df-fs28-cfdg2-fw600"
+        },
+        "ls": "p20,20,0",
+        "mockResponse": {
+          "title": "Popular Communities"
+        }
+      },
+      {
+        "componentType": "row",
+        "cellId": "r2",
+        "pid": 0,
+        "widgetType" : "ALL_COMMUNITY",
+        "viewType" : "BLOCK",
+        "ls": "m20,20,0",
+        "innerDataLayout": {
+          "title" : "fs20-cfw-mb5-fwb",
+          "subtitle" : "fs14-cfw",
+          "date" : "fs12-cfdg2-mb5",
+          "category" : "fs12-cfdg2-mb5-fwb",
+          "innerText" : "fs12-cfdg2-mb5-fwb",
+          "innerWidget" : "df"
+        }
+      },
+      {
+        "componentType": "row",
+        "cellId": "r4",
+        "pid": 0,
+        "widgetType" : "TITLE",
+        "innerDataLayout": {
+          "title" : "df-fs28-cfw-fw600-p10-jcc-bcsd-br6"
+        },
+        "ls": "p20,20,0",
+        "mockResponse": {
+          "title": "Create a Community",
+          "url": "/c/create",
+          "viewType": "BUTTON"
+        }
+      },
+      {
+        "componentType": "row",
+        "cellId": "r3",
+        "pid": 0,
+        "widgetType" : "SWIPEABLE_CARDS",
+        "ls": "m20",
+        "innerDataLayout": {
+          "title" : "fs20-cfw-mb5-fwb",
+          "subtitle" : "fs14",
+          "mainTitle" : "fs22-cfdg2-mb5-fwb",
+          "innerWidget" : "mr10"
+        }
+      }
+      
+    ]
+  }
+  
