@@ -41,8 +41,8 @@
       "innerDataLayout": {
         "title": "fs14-cfpc"
       },
-      "mockResponse": {
-        "title": "26th Nov, 2021"
+      "extraparams": {
+        "dataType": "date"
       }
     },
     {
