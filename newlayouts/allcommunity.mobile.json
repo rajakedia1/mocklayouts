@@ -48,8 +48,7 @@
         "ls": "p20,20,0",
         "mockResponse": {
           "title": "Create a Community",
-          "url": "/c/create",
-          "viewType": "BUTTON"
+          "url": "/c/create"
         }
       },
       {

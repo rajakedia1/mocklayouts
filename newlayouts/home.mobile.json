@@ -14,7 +14,7 @@
       "pid": 0,
       "widgetType": "BRIEF_POST",
       "viewType": "BLOCK",
-      "ls": "cfg-p10,20,5,20",
+      "ls": "cfg-p10,20,5",
       "innerDataLayout": {
         "title": "df-fs28-cfdg2-fwb-m10,0",
         "layoutData": "df-fs18-lh1.4e-mt10-cfdg2",
