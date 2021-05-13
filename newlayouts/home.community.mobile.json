@@ -1,0 +1,22 @@
+{
+    "constantStyleMap": {
+        "0-700": {
+            "sideMargin": 20,
+            "sidebarWidth": 0,
+            "middleMargin": 0
+        }
+    },
+    "device": "mobile",
+    "componentLayoutList": [
+        {
+            "componentType": "row",
+            "cellId": "r1",
+            "pid": 0,
+            "widgetType": "TITLE",
+            "ls": "p10,20,0",
+            "innerDataLayout": {
+                "title": "df-fs36-lh46-cfdg2-fwb"
+            }
+        }
+    ]
+}
