@@ -25,7 +25,7 @@
       "componentType": "row",
       "cellId": "r2",
       "pid": "0",
-      "widgetType": "FILTER_SEARCH_BOX",
+      "widgetType": "FILTER_SIDE_BOX",
       "ls": "p10,20,5"
     },
     {
