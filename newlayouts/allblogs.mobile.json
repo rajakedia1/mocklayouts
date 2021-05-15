@@ -34,7 +34,7 @@
         "userDetails" : "fs16-cfpc-mb15-fwb",
         "category" : "fs16-mb5-fwb",
         "innerText" : "fs16-cfdg2-mb5",
-        "innerWidget" : "m20,10-mw{contentWidth}p"
+        "innerWidget" : "mw{contentWidth}p"
       },
       "extraparams": {
         "contentLength": 1
