@@ -6,15 +6,18 @@
       "middleMargin": 0
     }
   },
-  "device" : "mobile",
-  "componentLayoutList" : [
+  "device": "mobile",
+  "constants": {
+    "contentLength": 1
+  },
+  "componentLayoutList": [
     {
       "componentType": "row",
       "cellId": "r1",
       "pid": 0,
-      "widgetType" : "TITLE",
+      "widgetType": "TITLE",
       "innerDataLayout": {
-        "title" : "df-fs40-cfdg2-fw600-pb10"
+        "title": "df-fs40-cfdg2-fw600-pb10"
       },
       "ls": "p20,20,10",
       "mockResponse": {
@@ -25,16 +28,16 @@
       "componentType": "row",
       "cellId": "r2",
       "pid": 0,
-      "widgetType" : "ALL_POST",
-      "viewType" : "BLOCK",
+      "widgetType": "ALL_POST",
+      "viewType": "BLOCK",
       "ls": "p0,20,8",
       "innerDataLayout": {
-        "title" : "fs21-cfdg2-lh28-mb5-fwb",
-        "subtitle" : "fs14-cfg-mb5",
-        "userDetails" : "fs16-cfpc-mb15-fwb",
-        "category" : "fs16-mb5-fwb",
-        "innerText" : "fs16-cfdg2-mb5",
-        "innerWidget" : "mw{contentWidth}p"
+        "title": "fs21-cfdg2-lh28-mb5-fwb",
+        "subtitle": "fs14-cfg-mb5",
+        "userDetails": "fs16-cfpc-mb15-fwb",
+        "category": "fs16-mb5-fwb",
+        "innerText": "fs16-cfdg2-mb5",
+        "innerWidget": "mw{contentWidth-3}p"
       },
       "extraparams": {
         "contentLength": 1
@@ -44,20 +47,20 @@
       "componentType": "row",
       "cellId": "r3",
       "pid": 0,
-      "widgetType" : "RECOMMENDED_POST",
+      "widgetType": "RECOMMENDED_POST",
       "ls": "p10,20,5,20",
       "innerDataLayout": {
-        "recommendedPostsTitle" : "fs20-cfg-fwb",
-        "recommendedPostTitle" : "fs18-cfg-fwb",
-        "recommendedPostSubtitle" : "fs14-cfg-mb5",
-        "recommendedPostDate" : "fs10-cflg"
+        "recommendedPostsTitle": "fs20-cfg-fwb",
+        "recommendedPostTitle": "fs18-cfg-fwb",
+        "recommendedPostSubtitle": "fs14-cfg-mb5",
+        "recommendedPostDate": "fs10-cflg"
       }
     },
     {
       "componentType": "row",
       "cellId": "r4",
       "pid": "0",
-      "widgetType" : "NEWS_LETTER",
+      "widgetType": "NEWS_LETTER",
       "ls": "wdih-m10,0",
       "innerDataLayout": {
         "title": "df-fs30-cftw-fw600-tac-p10,10,0-lh40",
