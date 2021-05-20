@@ -18,7 +18,7 @@
         "body": "df-fs18",
         "footerText": "fs14-cfw-pa-bt0-rt0-bc#00000094-p4"
       },
-      "extraparams" : {
+      "extraparams": {
         "useImageWidth": "deviceWidth"
       }
     },
@@ -55,6 +55,18 @@
         "body": "df-fs18",
         "tags": "df-p5,0,5,0-m5,0,5,0"
       }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r7",
+      "pid": "r2_1",
+      "widgetType": "INFO_CARD",
+      "ls": "wdih-mb{middleMargin}",
+      "innerDataLayout": {
+        "title": "df-fs30-cftw-fw600-p10,10,0-lh40",
+        "subTitle": "df-fs26-cfw-fw200-p0,10-lh26"
+      },
+      "extraparams": {}
     },
     {
       "componentType": "row",
