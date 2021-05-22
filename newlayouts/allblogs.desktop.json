@@ -22,6 +22,9 @@
         }
     },
     "device": "desktop",
+    "constants": {
+        "contentLength": 3
+    },
     "componentLayoutList": [
         {
             "componentType": "row",
@@ -73,54 +76,13 @@
             "innerDataLayout": {
                 "title": "fs24-lh32-cfdg2-mb5-fwb-p10,0,0",
                 "date": "fs12-cfdg2-mb5",
+                "userDetails": "fs16-cfpc-mb15-fwb",
                 "category": "fs18-mb15-fwb",
                 "innerText": "fs12-cfdg2-mb5-fwb-p0,0,10",
                 "innerWidget": "m20,10-mw{contentWidth}p"
-            }
-        },
-        {
-            "componentType": "column",
-            "cellId": "c2",
-            "pid": "rx",
-            "widgetType": "EMPTY",
-            "ls": "wd{sidebarWidth}"
-        },
-        {
-            "componentType": "row",
-            "cellId": "r5",
-            "pid": "c2",
-            "widgetType": "RECOMMENDED_POST",
-            "ls": "p20-mb{middleMargin}-el-bcw",
-            "innerDataLayout": {
-                "recommendedPostsTitle": "fs32-cfdg2-fw600-mb12",
-                "recommendedPostTitle": "fs14-cfdg2-fw600-m0,0,5,0",
-                "recommendedPostSubtitle": "fs14-cfdg2-mb5",
-                "recommendedPostDate": "fs10-cfdg2"
-            }
-        },
-        {
-            "componentType": "row",
-            "cellId": "r6",
-            "pid": "c2",
-            "widgetType": "CATEGORY_CARD",
-            "ls": "p20-mb{middleMargin}-el-bcw",
-            "innerDataLayout": {
-                "footerText": "fs14-cfdg2-m10,0",
-                "title": "fs26-cfdg2-fw600-mb20",
-                "subTitle": "fs14-cfdg2-fw600-m10,0",
-                "innerWidget": "df-aic-jcsb-cp"
-            }
-        },
-        {
-            "componentType": "row",
-            "cellId": "r7",
-            "pid": "c2",
-            "widgetType": "NEWS_LETTER",
-            "ls": "wdih-mb{middleMargin}",
-            "innerDataLayout": {
-                "title": "df-fs30-cftw-fw600-p10,10,0-lh40",
-                "subTitle": "df-fs26-cfw-fw200-p0,10-lh26",
-                "sticky": true
+            },
+            "extraparams": {
+                "contentLength": 3
             }
         }
     ]

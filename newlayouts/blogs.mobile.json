@@ -6,70 +6,98 @@
       "middleMargin": 0
     }
   },
-  "device" : "mobile",
-  "componentLayoutList" : [
-    {
-      "componentType": "row",
-      "cellId": "r1",
-      "pid": 0,
-      "widgetType" : "TITLE",
-      "ls": "p10,20,0",
-      "innerDataLayout": {
-        "title" : "df-fs28-cfdg2-fwb-m10,0"
-      }
-    },
+  "device": "mobile",
+  "componentLayoutList": [
     {
       "componentType": "row",
       "cellId": "r2",
       "pid": 0,
-      "widgetType" : "HERO_IMAGE",
-      "ls": "cfg-p0,20,5",
+      "widgetType": "HERO_IMAGE",
+      "ls": "cfg-p0,0,5",
       "innerDataLayout": {
-        "body" : "df-fs18",
-        "footerText" : "fs14-cfg-tac"
+        "body": "df-fs18",
+        "footerText": "fs14-cfw-pa-bt0-rt0-bc#00000094-p4"
+      },
+      "extraparams": {
+        "useImageWidth": "deviceWidth"
+      }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r1",
+      "pid": 0,
+      "widgetType": "TITLE",
+      "ls": "p10,20,0",
+      "innerDataLayout": {
+        "title": "df-fs36-lh46-cfdg2-fwb"
+      }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r7",
+      "pid": 0,
+      "widgetType": "TITLE",
+      "ls": "p10,20,0",
+      "innerDataLayout": {
+        "title": "fs14-cfpc"
+      },
+      "extraparams": {
+        "dataType": "date"
       }
     },
     {
       "componentType": "row",
       "cellId": "r3",
       "pid": 0,
-      "widgetType" : "BODY",
-      "ls": "cfg-p10,20,5,20",
+      "widgetType": "BODY",
+      "ls": "cfg-p10,20,5",
       "innerDataLayout": {
-        "body" : "df-fs18",
-        "tags" : "df-p5,0,5,0-m5,0,5,0"
+        "body": "df-fs18",
+        "tags": "df-p5,0,5,0-m5,0,5,0"
       }
+    },
+    {
+      "componentType": "row",
+      "cellId": "r9",
+      "pid": "0",
+      "widgetType": "INFO_CARD",
+      "ls": "wdih-mb{middleMargin}",
+      "innerDataLayout": {
+        "title": "df-fs30-cftw-fw600-p10,10,0-lh40",
+        "subTitle": "df-fs26-cfw-fw200-p0,10-lh26"
+      },
+      "extraparams": {}
     },
     {
       "componentType": "row",
       "cellId": "r4",
       "pid": 0,
-      "widgetType" : "USER_INFO",
+      "widgetType": "USER_INFO",
       "ls": "p10,20,5",
       "innerDataLayout": {
-        "footerText" : "fs20-cfmg1",
-        "innerText" : "fs20-cffb-fw600",
-        "recommendedPostDate" : "df-fs14-lh22-cfmg1-pt4-tac"
+        "footerText": "fs20-cfmg1",
+        "innerText": "fs20-cffb-fw600",
+        "recommendedPostDate": "df-fs14-lh22-cfmg1-pt4-tac"
       }
     },
     {
       "componentType": "row",
       "cellId": "r5",
       "pid": 0,
-      "widgetType" : "RECOMMENDED_POST",
+      "widgetType": "RECOMMENDED_POST",
       "ls": "p10,20,5,20",
       "innerDataLayout": {
-        "recommendedPostsTitle" : "fs24-cfg-fwb",
-        "recommendedPostTitle" : "fs18-cfg-fwb",
-        "recommendedPostSubtitle" : "fs14-cfg-mb5",
-        "recommendedPostDate" : "fs10-cflg"
+        "recommendedPostsTitle": "fs24-cfg-fwb",
+        "recommendedPostTitle": "fs18-cfg-fwb",
+        "recommendedPostSubtitle": "fs14-cfg-mb5",
+        "recommendedPostDate": "fs10-cflg"
       }
     },
     {
       "componentType": "row",
       "cellId": "r6",
       "pid": "0",
-      "widgetType" : "NEWS_LETTER",
+      "widgetType": "NEWS_LETTER",
       "ls": "wdih-m10,0",
       "innerDataLayout": {
         "title": "df-fs30-cftw-fw600-tac-p10,10,0-lh40",

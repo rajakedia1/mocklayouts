@@ -14,7 +14,7 @@
       "pid": 0,
       "widgetType": "BRIEF_POST",
       "viewType": "BLOCK",
-      "ls": "cfg-p10,20,5,20",
+      "ls": "cfg-p10,20,5",
       "innerDataLayout": {
         "title": "df-fs28-cfdg2-fwb-m10,0",
         "layoutData": "df-fs18-lh1.4e-mt10-cfdg2",
@@ -36,12 +36,25 @@
     },
     {
       "componentType": "row",
+      "cellId": "r6",
+      "pid": "0",
+      "widgetType": "CATEGORY_CARD",
+      "ls": "p50,{sideMargin}-mb40-bcpl.16",
+      "innerDataLayout": {
+        "footerText": "fs14-cfw-m8,0",
+        "title": "fs34-cfdg2-fw600-mb30-tac",
+        "subTitle": "fs14-cfw-fw600-m6,10,6,0",
+        "innerWidget": "df-aic-jcsb-cp-bcpl-p0,16-br20-mr20-mb16"
+      }
+    },
+    {
+      "componentType": "row",
       "cellId": "r2",
       "pid": 0,
       "widgetType": "RECOMMENDED_POST",
       "ls": "p10,20,5,20",
       "innerDataLayout": {
-        "recommendedPostsTitle": "fs24-cfg-fwb",
+        "recommendedPostsTitle": "fs30-cfg-fwb",
         "recommendedPostTitle": "fs18-cfg-fwb",
         "recommendedPostSubtitle": "fs14-cfg-mb5",
         "recommendedPostDate": "fs10-cflg"
@@ -54,7 +67,7 @@
       "widgetType": "NEWS_LETTER",
       "ls": "wdih-m10,0",
       "innerDataLayout": {
-        "title": "df-fs30-cftw-fw600-tac-p10,10,0-lh40",
+        "title": "df-fs30-cfpl-fw600-tac-p10,10,0-lh40",
         "subTitle": "df-fs26-cfw-fw200-tac-p0,10-lh26"
       }
     }

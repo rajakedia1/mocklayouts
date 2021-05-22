@@ -61,10 +61,8 @@
             "date": "fs12-cfdg2-mb5",
             "category": "fs18-mb15-fwb",
             "innerText": "fs12-cfdg2-mb5-fwb-p0,0,10",
+            "userDetails": "fs16-cfpc-mb15-fwb",
             "innerWidget": "m20,10"
-        },
-        "extraparams": {
-            "contentLength": 4
         }
       },
       {
@@ -78,7 +76,11 @@
             "date": "fs12-cfdg2-mb5",
             "category": "fs18-mb15-fwb",
             "innerText": "fs12-cfdg2-mb5-fwb-p0,0,10",
-            "innerWidget": "m20,10"
+            "innerWidget": "m20,10",
+            "userDetails": "fs16-cfpc-mb15-fwb"
+        },
+        "extraparams": {
+            "contentLength": 3
         }
       },
 
@@ -120,6 +122,7 @@
             "date": "fs12-cfdg2-mb5",
             "category": "fs18-mb15-fwb",
             "innerText": "fs12-cfdg2-mb5-fwb-p0,0,10",
+            "userDetails": "fs16-cfpc-mb15-fwb",
             "innerWidget": "m20,10"
         }
       }
