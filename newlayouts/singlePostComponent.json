@@ -1,0 +1,13 @@
+{
+  "componentType": "row",
+  "cellId": "r3",
+  "pid": "c1",
+  "widgetType": "VIEW_ALL_POST",
+  "innerDataLayout": {
+    "title": "fs22-cfdg2-fwb-cp",
+    "subTitle": "",
+    "date": "fs10-cfdg2",
+    "status": "fs12-cfr-fwb-mr14",
+    "userDetails": "fs12-cffb-ml14-fwb"
+  }
+}
