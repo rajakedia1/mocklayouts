@@ -21,9 +21,9 @@
             "pid": "r1",
             "widgetType": "POST_COMMENTS_LIST",
             "viewType": "BLOCK",
-            "ls": "p10,20,0",
+            "ls": "p20,20,0",
             "innerDataLayout": {
-                "childls": "p10,20,0-ml30-ell",
+                "innerWidget": "p10,20,0-ml30-ell",
                 "title": "fs16-lh22-cfdg2-mt6",
                 "userDetails": "fwb-mb4-cfsd",
                 "recommendedPostDate": "fs12",
