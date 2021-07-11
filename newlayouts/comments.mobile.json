@@ -36,7 +36,7 @@
             "cellId": "r3",
             "pid": 0,
             "widgetType": "STICKY_INPUT_BOX",
-            "ls": "p0,10-pf-elt-pf-bt0-lf0-wd100p-bcw-bsbb",
+            "ls": "pf-elt-pf-bt0-lf0-wd100p-bcw-bsbb",
             "innerDataLayout": {}
         }
     ]
