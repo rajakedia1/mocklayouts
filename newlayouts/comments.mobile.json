@@ -1,0 +1,43 @@
+{
+    "constantStyleMap": {
+        "0-700": {
+            "sideMargin": 20,
+            "sidebarWidth": 0,
+            "middleMargin": 0
+        }
+    },
+    "device": "mobile",
+    "componentLayoutList": [
+        {
+            "componentType": "row",
+            "cellId": "r1",
+            "pid": "0",
+            "widgetType": "EMPTY",
+            "ls": "pb60"
+        },
+        {
+            "componentType": "row",
+            "cellId": "r2",
+            "pid": "r1",
+            "widgetType": "POST_COMMENTS_LIST",
+            "viewType": "BLOCK",
+            "ls": "p20,20,0",
+            "innerDataLayout": {
+                "innerWidget": "p10,20,0-ml30-ell",
+                "title": "fs16-lh22-cfdg2-mt6",
+                "userDetails": "fwb-mb4-cfsd",
+                "recommendedPostDate": "fs12",
+                "recommendedPostTitle": "fs",
+                "innerText": "fs28-lh22-cfdg2-mt6-tac-pt20fwb"
+            }
+        },
+        {
+            "componentType": "row",
+            "cellId": "r3",
+            "pid": 0,
+            "widgetType": "STICKY_INPUT_BOX",
+            "ls": "pf-elt-pf-bt0-lf0-wd100p-bcw-bsbb",
+            "innerDataLayout": {}
+        }
+    ]
+}

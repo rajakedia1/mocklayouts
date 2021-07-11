@@ -6,54 +6,54 @@
       "middleMargin": 0
     }
   },
-  "device" : "mobile",
+  "device": "mobile",
   "componentLayoutList": [
     {
       "componentType": "row",
       "cellId": "r0",
       "pid": "0",
-      "widgetType" : "USER_PROFILE",
+      "widgetType": "USER_PROFILE",
       "innerDataLayout": {
-        "footerText" : "df-fs18-lh24-cfmg1-pt5",
-        "title": "df-fs32-cfmg1-fw600",
-        "subTitle": "df-fs20-lh24-cfmg1-p10-tac"
+        "footerText": "fs18-lh24-cfmg1-pt5",
+        "title": "fs28-cfw-fw600",
+        "subTitle": "fs16-lh24-cfmg1-tac"
       }
     },
     {
       "componentType": "row",
       "cellId": "r1",
       "pid": "0",
-      "widgetType" : "AUTHOR_POST_LIST",
-      "viewType" : "BLOCK",
+      "widgetType": "AUTHOR_POST_LIST",
+      "viewType": "BLOCK",
       "ls": "p10,20,5",
       "innerDataLayout": {
-        "recommendedPostTitle" : "fs26-cfdg2-fwb-cp-df-mb10-lh30",
-        "recommendedPostSubtitle" : "fs18-cfdg2-m7,0-lh24",
-        "recommendedPostDate" : "fs16-cfdg2",
-        "title" : "fs28-fwb-cfdg2-tac-p20"
+        "recommendedPostTitle": "fs26-cfdg2-fwb-cp-df-mb10-lh30",
+        "recommendedPostSubtitle": "fs18-cfdg2-m7,0-lh24",
+        "recommendedPostDate": "fs16-cfdg2",
+        "title": "fs28-fwb-cfdg2-tac-p20"
       }
     },
     {
       "componentType": "row",
       "cellId": "r2",
       "pid": 0,
-      "widgetType" : "RECOMMENDED_POST",
+      "widgetType": "RECOMMENDED_POST",
       "ls": "p10,20,5,20",
       "innerDataLayout": {
-        "recommendedPostsTitle" : "fs20-cfg-fwb",
-        "recommendedPostTitle" : "fs18-cfg-fwb",
-        "recommendedPostSubtitle" : "fs14-cfg-mb5",
-        "recommendedPostDate" : "fs10-cflg"
+        "recommendedPostsTitle": "fs20-cfg-fwb",
+        "recommendedPostTitle": "fs18-cfg-fwb",
+        "recommendedPostSubtitle": "fs14-cfg-mb5",
+        "recommendedPostDate": "fs10-cflg"
       }
     },
     {
       "componentType": "row",
       "cellId": "r3",
       "pid": "0",
-      "widgetType" : "NEWS_LETTER",
+      "widgetType": "NEWS_LETTER",
       "ls": "wdih-m10,0",
       "innerDataLayout": {
-        "title": "df-fs30-fw600-tac-p10,10,0-lh40",
+        "title": "df-fs30-cfpl-fw600-tac-p10,10,0-lh40",
         "subTitle": "df-fs26-cfw-fw200-tac-p0,10-lh26"
       }
     }
